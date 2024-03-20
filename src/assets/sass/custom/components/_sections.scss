@@ -1,0 +1,14 @@
+/* Main styling for Card*/
+section {
+  &#weather {
+    margin: 2rem auto 0;
+  }
+
+  /* Main Weather Header*/
+  & h1 {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 0.4rem;
+    font-weight: 300;
+  }
+}
