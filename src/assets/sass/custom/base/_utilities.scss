@@ -1,0 +1,53 @@
+@media screen and (min-width: 900px) {
+  section {
+    &#weather {
+      width: 90rem;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .weather__temp {
+    flex-direction: column;
+    //align-items: center;
+
+    & > div {
+      display: flex;
+      justify-content: space-evenly;
+
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+/* Main Heading Media Query */
+@media screen and (max-width: 600px) {
+  .smallScreen {
+    padding: 0 2rem;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .weather__info {
+    padding: 1rem;
+
+    &--details {
+      font-size: 0.7rem;
+
+      align-items: flex-end;
+    }
+  }
+
+  /* Main Heading */
+  .smallScreen {
+    padding: 0 1rem;
+    font-size: 3rem;
+  }
+
+  /* Icons */
+  i {
+    font-size: 2.5rem;
+  }
+}
