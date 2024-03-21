@@ -32,10 +32,10 @@ const AppRoutes: Routes = [
     path: 'weather',
     component: WeatherHomeComponent,
   },
-  {
-    path: '**',
-    redirectTo: 'Home',
-  },
+  // {
+  //   path: '**',
+  //   redirectTo: 'Home',
+  // },
 ];
 
 @NgModule({
